@@ -1,0 +1,17 @@
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "result",
+            "valueBoolean": true
+        },
+        {
+            "name": "message",
+            "valueString": "Code validation occurred using a ValueSet expansion that was pre-calculated at 2025-09-05T20:54:08.095+00:00"
+        },
+        {
+            "name": "display",
+            "valueString": "Omeprazol"
+        }
+    ]
+}
