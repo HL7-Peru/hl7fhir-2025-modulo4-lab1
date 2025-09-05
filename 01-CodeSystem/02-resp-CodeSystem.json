@@ -1,0 +1,48 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "809444",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-05T20:43:20.065+00:00",
+        "source": "#L12aN6VhMGbYpSVx"
+    },
+    "url": "http://hl7peru.org/fhir/CodeSystem/local-farm-diego",
+    "name": "LocalFarmDiego",
+    "status": "active",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "F001",
+            "display": "Paracetamol",
+            "definition": "Un medicamento utilizado para aliviar el dolor y reducir la fiebre.",
+            "designation": [
+                {
+                    "language": "es",
+                    "value": "Paracetamol"
+                }
+            ]
+        },
+        {
+            "code": "F002",
+            "display": "Ibuprofeno",
+            "definition": "Un medicamento antiinflamatorio no esteroideo utilizado para reducir la inflamación, fiebre y dolor.",
+            "designation": [
+                {
+                    "language": "es",
+                    "value": "Ibuprofeno"
+                }
+            ]
+        },
+        {
+            "code": "F003",
+            "display": "Amoxicilina",
+            "definition": "Antibiótico utilizado para tratar diversas infecciones bacterianas.",
+            "designation": [
+                {
+                    "language": "es",
+                    "value": "Amoxicilina"
+                }
+            ]
+        }
+    ]
+}

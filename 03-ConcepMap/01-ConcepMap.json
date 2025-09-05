@@ -1,0 +1,75 @@
+{
+  "resourceType": "ConceptMap",
+  "url": "http://hl7peru.org/fhir/ConceptMap/cm-farm-diego",
+  "version": "1.0.0",
+  "name": "CmFarmDiego",
+  "status": "active",
+  "group": [
+    {
+      "source": "http://hl7peru.org/fhir/CodeSystem/local-farm-diego",
+      "target": "http://www.whocc.no/atc",
+      "element": [
+        {
+          "code": "F001",
+          "target": [
+            {
+              "code": "N02BE01",
+              "display": "Paracetamol",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F002",
+          "target": [
+            {
+              "code": "M01AE01",
+              "display": "Ibuprofen",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F003",
+          "target": [
+            {
+              "code": "J01CA04",
+              "display": "Amoxicillin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F004",
+          "target": [
+            {
+              "code": "A10BA02",
+              "display": "Metformin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F005",
+          "target": [
+            {
+              "code": "C09CA01",
+              "display": "Losartan",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F006",
+          "target": [
+            {
+              "code": "A02BC01",
+              "display": "Omeprazole",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

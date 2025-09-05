@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://hl7peru.org/fhir/CodeSystem/local-farm-diego",
+  "name": "LocalFarmDiego",
+  "status": "active",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "F001",
+      "display": "Paracetamol",
+      "definition": "Un medicamento utilizado para aliviar el dolor y reducir la fiebre.",
+      "designation": [ { "language": "es", "value": "Paracetamol" }
+      ]
+    },
+    {
+      "code": "F002",
+      "display": "Ibuprofeno",
+      "definition": "Un medicamento antiinflamatorio no esteroideo utilizado para reducir la inflamación, fiebre y dolor.",
+      "designation": [{ "language": "es", "value": "Ibuprofeno" }
+      ]
+    },
+    {
+      "code": "F003",
+      "display": "Amoxicilina",
+      "definition": "Antibiótico utilizado para tratar diversas infecciones bacterianas.",
+      "designation": [{ "language": "es", "value": "Amoxicilina" }
+      ]
+    },
+     {
+      "code": "F004",
+      "display": "Metformina",
+      "definition": "Control de glucosa en diabetes tipo 2",
+      "designation": [{ "language": "es", "value": "Metformina" }]
+    },
+    {
+      "code": "F005",
+      "display": "Losartán",
+      "definition": "Antihipertensivo para presión arterial",
+      "designation": [{ "language": "es", "value": "Losartán" }]
+    },
+    {
+      "code": "F006",
+      "display": "Omeprazol",
+      "definition": "Reduce ácido gástrico",
+      "designation": [{ "language": "es", "value": "Omeprazol" }]
+    }
+    
+  ]
+}
