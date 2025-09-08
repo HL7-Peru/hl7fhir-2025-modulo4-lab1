@@ -1,0 +1,58 @@
+{
+    "resourceType": "ValueSet",
+    "id": "809515",
+    "meta": {
+        "extension": [
+            {
+                "url": "http://hapifhir.io/fhir/StructureDefinition/valueset-expansion-message",
+                "valueString": "ValueSet was expanded using an expansion that was pre-calculated at 2025-09-08T05:52:13.343+00:00"
+            }
+        ],
+        "versionId": "1"
+    },
+    "url": "http://hl7peru.org/fhir/ValueSet/vs-basic-lab-tests-UKMM",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://hl7peru.org/fhir/CodeSystem/local-lab-tests-UKMM"
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "eb661134-7d46-42c5-874c-52581b00fabd",
+        "timestamp": "2025-09-08T06:16:09+00:00",
+        "total": 3,
+        "offset": 0,
+        "parameter": [
+            {
+                "name": "offset",
+                "valueInteger": 0
+            },
+            {
+                "name": "count",
+                "valueInteger": 1000
+            }
+        ],
+        "contains": [
+            {
+                "system": "http://hl7peru.org/fhir/CodeSystem/local-lab-tests-UKMM",
+                "version": "1.0.0",
+                "code": "TC",
+                "display": "Temperatura corporal"
+            },
+            {
+                "system": "http://hl7peru.org/fhir/CodeSystem/local-lab-tests-UKMM",
+                "version": "1.0.0",
+                "code": "PAD",
+                "display": "Presión arterial diastólica"
+            },
+            {
+                "system": "http://hl7peru.org/fhir/CodeSystem/local-lab-tests-UKMM",
+                "version": "1.0.0",
+                "code": "PAS",
+                "display": "Presión arterial sistólica"
+            }
+        ]
+    }
+}

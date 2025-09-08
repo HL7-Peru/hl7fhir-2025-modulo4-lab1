@@ -1,0 +1,48 @@
+{
+    "resourceType": "ConceptMap",
+    "id": "809516",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-08T06:50:35.918+00:00",
+        "source": "#8eNzXLi6PoL6XIbi"
+    },
+    "url": "http://hl7peru.org/fhir/ConceptMap/cm-lab-to-loinc-UKMM",
+    "version": "1.0.0",
+    "name": "LabToLoincUKMM",
+    "status": "active",
+    "group": [
+        {
+            "source": "http://hl7peru.org/fhir/CodeSystem/local-lab-tests-UKMM",
+            "target": "http://loinc.org",
+            "element": [
+                {
+                    "code": "PAS",
+                    "target": [
+                        {
+                            "code": "8480-6",
+                            "display": "Systolic blood pressure"
+                        }
+                    ]
+                },
+                {
+                    "code": "PAD",
+                    "target": [
+                        {
+                            "code": "8462-4",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ]
+                },
+                {
+                    "code": "TC",
+                    "target": [
+                        {
+                            "code": "8310-5",
+                            "display": "Body temperature"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

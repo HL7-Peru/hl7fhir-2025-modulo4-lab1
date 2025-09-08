@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "809514",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-08T05:28:22.565+00:00",
+        "source": "#3Pgg3yqkA3IkyvDl"
+    },
+    "url": "http://hl7peru.org/fhir/CodeSystem/local-lab-tests-UKMM",
+    "version": "1.0.0",
+    "name": "LocalLabTestsUKMM",
+    "status": "active",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "PAS",
+            "display": "Presión arterial sistólica"
+        },
+        {
+            "code": "PAD",
+            "display": "Presión arterial diastólica"
+        },
+        {
+            "code": "TC",
+            "display": "Temperatura corporal"
+        }
+    ]
+}
