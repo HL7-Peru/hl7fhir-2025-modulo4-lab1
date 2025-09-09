@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "809661",
+    "meta": {
+        "versionId": "2",
+        "lastUpdated": "2025-09-09T16:00:22.410+00:00",
+        "source": "#6bFw4lIjVEDV4Pql"
+    },
+    "url": "http://hl7peru.org/fhir/ValueSet/examenes_lab_vs",
+    "version": "1.0.0",
+    "name": "examenesLabvs",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://hl7peru.org/fhir/CodeSystem/medicamento-local-cs"
+            }
+        ]
+    }
+}
