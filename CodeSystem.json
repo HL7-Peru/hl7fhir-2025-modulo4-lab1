@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "809662",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-09T15:59:15.401+00:00",
+        "source": "#m1aoyslJnofOXyad"
+    },
+    "url": "http://hl7peru.org/fhir/CodeSystem/medicamento-local-cs",
+    "version": "1.0.0",
+    "name": "medicamentolocalcs",
+    "status": "active",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "HB",
+            "display": "Hemoglobina"
+        },
+        {
+            "code": "GLU",
+            "display": "Glucosa en sangre"
+        },
+        {
+            "code": "CHOL",
+            "display": "Colesterol total"
+        }
+    ]
+}
