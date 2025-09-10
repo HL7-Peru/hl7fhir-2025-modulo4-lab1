@@ -1,0 +1,39 @@
+{
+    "resourceType": "ConceptMap",
+    "id": "809743",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-10T23:06:42.757+00:00",
+        "source": "#tlz2319nIKrJl5t1"
+    },
+    "url": "http://example.org/fhir/ConceptMap/FarmaciaRobertPedrazaleonloinc",
+    "version": "1.0.0",
+    "name": "FarmaciaRobertPedrazaleonloinc",
+    "status": "active",
+    "group": [
+        {
+            "source": "http://example.org/fhir/CodeSystem/FarmaciaRobertPedrazaleon",
+            "target": "http://loinc.org",
+            "element": [
+                {
+                    "code": "P001",
+                    "target": [
+                        {
+                            "code": "P0012025",
+                            "display": "Paracetamol"
+                        }
+                    ]
+                },
+                {
+                    "code": "I001",
+                    "target": [
+                        {
+                            "code": "I0012025",
+                            "display": "Ibermectina"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

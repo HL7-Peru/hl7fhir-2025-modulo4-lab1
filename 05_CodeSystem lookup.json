@@ -1,0 +1,21 @@
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "name",
+            "valueString": "CodeSystemFarmaciaRobertPedrazaleon"
+        },
+        {
+            "name": "version",
+            "valueString": "1.0.0"
+        },
+        {
+            "name": "display",
+            "valueString": "Paracetamol"
+        },
+        {
+            "name": "abstract",
+            "valueBoolean": false
+        }
+    ]
+}
