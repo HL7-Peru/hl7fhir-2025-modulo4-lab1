@@ -1,0 +1,58 @@
+{
+    "resourceType": "ValueSet",
+    "id": "809433",
+    "meta": {
+        "extension": [
+            {
+                "url": "http://hapifhir.io/fhir/StructureDefinition/valueset-expansion-message",
+                "valueString": "ValueSet was expanded using an expansion that was pre-calculated at 2025-09-05T19:24:08.128+00:00"
+            }
+        ],
+        "versionId": "1"
+    },
+    "url": "http://example.org/fhir/ValueSet/valoresFarmacosLocalesManuelGonzales",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales"
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "6b662893-1b1a-4e74-9cc6-71e86113c5ff",
+        "timestamp": "2025-09-10T17:33:53+00:00",
+        "total": 3,
+        "offset": 0,
+        "parameter": [
+            {
+                "name": "offset",
+                "valueInteger": 0
+            },
+            {
+                "name": "count",
+                "valueInteger": 1000
+            }
+        ],
+        "contains": [
+            {
+                "system": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+                "version": "1.0.0",
+                "code": "F010",
+                "display": "Traztuzumab"
+            },
+            {
+                "system": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+                "version": "1.0.0",
+                "code": "F011",
+                "display": "Dexametazona"
+            },
+            {
+                "system": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+                "version": "1.0.0",
+                "code": "F012",
+                "display": "Ibuprofeno"
+            }
+        ]
+    }
+}

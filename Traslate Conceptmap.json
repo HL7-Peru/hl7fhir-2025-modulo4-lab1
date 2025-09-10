@@ -1,0 +1,34 @@
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "result",
+            "valueBoolean": true
+        },
+        {
+            "name": "message",
+            "valueString": "Matches found"
+        },
+        {
+            "name": "match",
+            "part": [
+                {
+                    "name": "equivalence",
+                    "valueCode": "relatedto"
+                },
+                {
+                    "name": "concept",
+                    "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LP18106-8",
+                        "display": "Dexamethasone"
+                    }
+                },
+                {
+                    "name": "source",
+                    "valueUri": "http://example.org/fhir/ConceptMap/farmacosLocalesManuelGonzalesToLOINC"
+                }
+            ]
+        }
+    ]
+}

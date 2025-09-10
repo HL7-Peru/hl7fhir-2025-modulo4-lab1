@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "809422",
+  "url": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+  "version": "1.0.0",
+  "name": "CodeSystemFarmacosLocalesManuelGonzales",
+  "status": "active",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "F010",
+      "display": "Traztuzumab",
+       "definition": "Es un anticuerpo monoclonal utilizado principalmente en oncología."
+    },
+    {
+      "code": "F011",
+      "display": "Dexametazona",
+       "definition": "Es un corticosteroide sintético con una potencia antiinflamatoria mucho mayor que la prednisona y sin actividad mineralocorticoide significativa."
+    },
+    {
+      "code": "F012",
+      "display": "Ibuprofeno",
+       "definition": "Es un antiinflamatorio no esteroideo (AINE) de uso muy frecuente."
+    }
+  ]
+}

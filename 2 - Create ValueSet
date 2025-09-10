@@ -1,0 +1,17 @@
+
+{
+  "resourceType": "ValueSet",
+  "id": "valoresFarmacosLocalesManuelGonzales",
+  "url": "http://example.org/fhir/ValueSet/valoresFarmacosLocalesManuelGonzales",
+  "version": "1.0.0",
+  "name": "ValueSetFarmacosLocalesManuelGonzales",
+  "status": "active",
+  "description": "Conjunto de valores que incluye los fármacos definidos en el CodeSystemFarmacosLocalesManuelGonzales",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales"
+      }
+    ]
+  }
+}

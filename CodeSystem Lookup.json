@@ -1,0 +1,21 @@
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "name",
+            "valueString": "CodeSystemFarmacosLocalesManuelGonzales"
+        },
+        {
+            "name": "version",
+            "valueString": "1.0.0"
+        },
+        {
+            "name": "display",
+            "valueString": "Traztuzumab"
+        },
+        {
+            "name": "abstract",
+            "valueBoolean": false
+        }
+    ]
+}
