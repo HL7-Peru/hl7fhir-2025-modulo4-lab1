@@ -1,0 +1,22 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+  "version": "1.0.0",
+  "name": "CodeSystemFarmacosLocalesManuelGonzales",
+  "status": "active",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "F010",
+      "display": "Traztuzumab"
+    },
+    {
+      "code": "F011",
+      "display": "Dexametazona"
+    },
+    {
+      "code": "F012",
+      "display": "Ibuprofeno"
+    }
+  ]
+}

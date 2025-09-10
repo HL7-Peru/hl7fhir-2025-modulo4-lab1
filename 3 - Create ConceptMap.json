@@ -1,0 +1,51 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "conceptmap-farmacos-manuelgonzales-loinc",
+  "url": "http://example.org/fhir/ConceptMap/farmacosLocalesManuelGonzalesToLOINC",
+  "version": "1.0.0",
+  "name": "ConceptMapFarmacosLocalesManuelGonzalesToLOINC",
+  "status": "active",
+  "sourceUri": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+  "targetUri": "http://loinc.org",
+  "group": [
+    {
+      "source": "http://example.org/fhir/CodeSystem/farmacosLocalesManuelGonzales",
+      "target": "http://loinc.org",
+      "element": [
+        {
+          "code": "F010",
+          "display": "Traztuzumab",
+          "target": [
+            {
+              "code": "LP6464-4",
+              "display": "Trastuzumab",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F011",
+          "display": "Dexametazona",
+          "target": [
+            {
+              "code": "LP18106-8",
+              "display": "Dexamethasone",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "F012",
+          "display": "Ibuprofeno",
+          "target": [
+            {
+              "code": "LP16165-0",
+              "display": "Ibuprofen",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
