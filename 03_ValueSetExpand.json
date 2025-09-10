@@ -1,0 +1,58 @@
+{
+    "resourceType": "ValueSet",
+    "id": "809741",
+    "meta": {
+        "extension": [
+            {
+                "url": "http://hapifhir.io/fhir/StructureDefinition/valueset-expansion-message",
+                "valueString": "ValueSet \"ValueSet.url[http://example.org/fhir/ValueSet/FarmaciaRobertPedrazaleon]\" has not yet been pre-expanded. Performing in-memory expansion without parameters. Current status: NOT_EXPANDED | The ValueSet is waiting to be picked up and pre-expanded by a scheduled task."
+            }
+        ],
+        "versionId": "1"
+    },
+    "url": "http://example.org/fhir/ValueSet/FarmaciaRobertPedrazaleon",
+    "status": "active",
+    "compose": {
+        "include": [
+            {
+                "system": "http://example.org/fhir/CodeSystem/FarmaciaRobertPedrazaleon"
+            }
+        ]
+    },
+    "expansion": {
+        "identifier": "56b22e9e-a6ea-4a0e-a1c3-993c871678cf",
+        "timestamp": "2025-09-10T22:59:49+00:00",
+        "total": 3,
+        "offset": 0,
+        "parameter": [
+            {
+                "name": "offset",
+                "valueInteger": 0
+            },
+            {
+                "name": "count",
+                "valueInteger": 1000
+            }
+        ],
+        "contains": [
+            {
+                "system": "http://example.org/fhir/CodeSystem/FarmaciaRobertPedrazaleon",
+                "version": "1.0.0",
+                "code": "I001",
+                "display": "Ibermectina"
+            },
+            {
+                "system": "http://example.org/fhir/CodeSystem/FarmaciaRobertPedrazaleon",
+                "version": "1.0.0",
+                "code": "P001",
+                "display": "Paracetamol"
+            },
+            {
+                "system": "http://example.org/fhir/CodeSystem/FarmaciaRobertPedrazaleon",
+                "version": "1.0.0",
+                "code": "G001",
+                "display": "Glucoza"
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "809740",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-10T22:41:45.107+00:00",
+        "source": "#kfFG5WlYx7x1rjDk"
+    },
+    "url": "http://example.org/fhir/CodeSystem/FarmaciaRobertPedrazaleon",
+    "version": "1.0.0",
+    "name": "CodeSystemFarmaciaRobertPedrazaleon",
+    "status": "active",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "P001",
+            "display": "Paracetamol"
+        },
+        {
+            "code": "I001",
+            "display": "Ibermectina"
+        },
+        {
+            "code": "G001",
+            "display": "Glucoza"
+        }
+    ]
+}
